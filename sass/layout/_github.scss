@@ -25,12 +25,12 @@
     padding: 1rem 3rem;
     border: 3px solid $color-primary;
     border-radius: 20px;
-  }
 
-  a:hover,
-  a:focus {
-    background-color: $color-primary;
-    color: $text-light;
-    transition: 0.3s ease-out;
+    &:hover,
+    &:focus {
+      background-color: $color-primary;
+      color: $text-light;
+      transition: 0.3s ease-out;
+    }
   }
 }
