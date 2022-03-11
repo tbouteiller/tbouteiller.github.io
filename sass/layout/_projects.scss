@@ -1,0 +1,90 @@
+@import "../utility/variables";
+@import "../base/typography";
+
+#projects {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0 5% 0;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #d3d3d3;
+
+  h3 {
+    font-size: $large-font-size;
+    font-weight: 900;
+    color: $color-primary;
+    padding-bottom: 2rem;
+  }
+
+  p {
+    color: $color-primary;
+    font-size: $medium-font-size;
+    font-weight: 300;
+    padding: 0 20% 2rem 20%;
+  }
+
+  a {
+    font-size: $default-font-size;
+    color: $text-light;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    transition: 0.5s ease-out;
+    text-decoration: underline;
+  }
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(1px, 1fr));
+}
+
+.grid-item {
+  margin: 1rem;
+  height: 25rem; //20rem
+  width: 40rem; //30rem
+  box-shadow: 0px 1px 3px 0px #e0e0e0;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.grid-item:nth-child(1) {
+  background-image: url("/images/project1.png");
+  background-size: cover;
+}
+
+.grid-item:nth-child(2) {
+  background-image: url("/images/project2.png");
+  background-size: cover;
+}
+
+.grid-item:nth-child(3) {
+  background-image: url("/images/project3.png");
+  background-size: cover;
+}
+
+.grid-item:nth-child(4) {
+  background-image: url("/images/project4.png");
+  background-size: cover;
+}
+
+.grid-item:nth-child(5) {
+  background-image: url("/images/project5.png");
+  background-size: cover;
+}
+
+.grid-item:nth-child(6) {
+  background-image: url("/images/project6.png");
+  background-size: cover;
+}

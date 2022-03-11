@@ -1,0 +1,38 @@
+@import "../utility/variables";
+@import "../base/typography";
+
+footer {
+  background-color: $color-primary;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 20%;
+
+  a {
+    color: $text-light;
+  }
+
+  a:hover,
+  a:focus {
+    transition: 0.3s ease-out;
+    color: rgb(252, 251, 196);
+  }
+
+  li:hover,
+  li:focus {
+    transform: scale(1.1);
+    transition: 0.3s ease-out;
+  }
+
+  div {
+    width: 100%;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+}

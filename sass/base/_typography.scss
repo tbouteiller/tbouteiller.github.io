@@ -1,0 +1,40 @@
+@import "../utility/variables";
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@300;400;700;900&display=swap");
+
+//font family
+:root {
+  font-size: $root-font-size;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  font-size: $default-font-size;
+  text-decoration: none;
+
+  &:visited {
+    text-decoration: none;
+  }
+}
+
+//backgrounds
+
+.bg-g {
+  background-color: $color-green;
+}
+
+.bg-b {
+  background-color: $color-blue;
+}
+
+.bg-s {
+  background-color: $color-salmon;
+}
+
+.bg-y {
+  background-color: $color-yellow;
+}
+
+//font hidden
+.invisible {
+  display: none;
+}

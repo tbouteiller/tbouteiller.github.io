@@ -1,0 +1,26 @@
+@import "../utility/variables";
+@import "../base/typography";
+
+//Introduction
+#introduction {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8% 5% 15% 5%;
+
+  h1 {
+    color: $color-primary;
+    font-size: $xl-font-size;
+    font-weight: 900;
+    padding-bottom: 2rem;
+  }
+
+  h3 {
+    color: $color-primary;
+    font-size: $medium-font-size;
+    font-weight: 300;
+    padding-bottom: 2rem;
+  }
+}
