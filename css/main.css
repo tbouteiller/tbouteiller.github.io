@@ -35,26 +35,6 @@ a:visited {
   text-decoration: none;
 }
 
-.bg-g {
-  background-color: #b9fbc0;
-}
-
-.bg-b {
-  background-color: #90dbf4;
-}
-
-.bg-s {
-  background-color: #ffcfd2;
-}
-
-.bg-y {
-  background-color: #fbf8cc;
-}
-
-.invisible {
-  display: none;
-}
-
 .main-nav {
   padding-top: 4rem;
 }
@@ -184,26 +164,6 @@ a:visited {
   text-decoration: none;
 }
 
-.bg-g {
-  background-color: #b9fbc0;
-}
-
-.bg-b {
-  background-color: #90dbf4;
-}
-
-.bg-s {
-  background-color: #ffcfd2;
-}
-
-.bg-y {
-  background-color: #fbf8cc;
-}
-
-.invisible {
-  display: none;
-}
-
 button {
   border: 2px solid #262d33;
   color: #262d33;
@@ -233,26 +193,6 @@ a {
 
 a:visited {
   text-decoration: none;
-}
-
-.bg-g {
-  background-color: #b9fbc0;
-}
-
-.bg-b {
-  background-color: #90dbf4;
-}
-
-.bg-s {
-  background-color: #ffcfd2;
-}
-
-.bg-y {
-  background-color: #fbf8cc;
-}
-
-.invisible {
-  display: none;
 }
 
 #introduction {
@@ -301,26 +241,6 @@ a:visited {
   text-decoration: none;
 }
 
-.bg-g {
-  background-color: #b9fbc0;
-}
-
-.bg-b {
-  background-color: #90dbf4;
-}
-
-.bg-s {
-  background-color: #ffcfd2;
-}
-
-.bg-y {
-  background-color: #fbf8cc;
-}
-
-.invisible {
-  display: none;
-}
-
 #about {
   text-align: center;
   display: -webkit-box;
@@ -365,26 +285,6 @@ a {
 
 a:visited {
   text-decoration: none;
-}
-
-.bg-g {
-  background-color: #b9fbc0;
-}
-
-.bg-b {
-  background-color: #90dbf4;
-}
-
-.bg-s {
-  background-color: #ffcfd2;
-}
-
-.bg-y {
-  background-color: #fbf8cc;
-}
-
-.invisible {
-  display: none;
 }
 
 .content {
@@ -449,26 +349,6 @@ a {
 
 a:visited {
   text-decoration: none;
-}
-
-.bg-g {
-  background-color: #b9fbc0;
-}
-
-.bg-b {
-  background-color: #90dbf4;
-}
-
-.bg-s {
-  background-color: #ffcfd2;
-}
-
-.bg-y {
-  background-color: #fbf8cc;
-}
-
-.invisible {
-  display: none;
 }
 
 #projects {
@@ -589,26 +469,6 @@ a:visited {
   text-decoration: none;
 }
 
-.bg-g {
-  background-color: #b9fbc0;
-}
-
-.bg-b {
-  background-color: #90dbf4;
-}
-
-.bg-s {
-  background-color: #ffcfd2;
-}
-
-.bg-y {
-  background-color: #fbf8cc;
-}
-
-.invisible {
-  display: none;
-}
-
 #github {
   text-align: center;
   display: -webkit-box;
@@ -664,26 +524,6 @@ a {
 
 a:visited {
   text-decoration: none;
-}
-
-.bg-g {
-  background-color: #b9fbc0;
-}
-
-.bg-b {
-  background-color: #90dbf4;
-}
-
-.bg-s {
-  background-color: #ffcfd2;
-}
-
-.bg-y {
-  background-color: #fbf8cc;
-}
-
-.invisible {
-  display: none;
 }
 
 footer {

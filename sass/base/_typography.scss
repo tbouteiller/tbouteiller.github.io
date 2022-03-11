@@ -7,6 +7,7 @@
   font-family: "Roboto", sans-serif;
 }
 
+//<a> defaults
 a {
   font-size: $default-font-size;
   text-decoration: none;
@@ -14,27 +15,4 @@ a {
   &:visited {
     text-decoration: none;
   }
-}
-
-//backgrounds
-
-.bg-g {
-  background-color: $color-green;
-}
-
-.bg-b {
-  background-color: $color-blue;
-}
-
-.bg-s {
-  background-color: $color-salmon;
-}
-
-.bg-y {
-  background-color: $color-yellow;
-}
-
-//font hidden
-.invisible {
-  display: none;
 }
